@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(5, 245, 245);
+  color: rgb(121, 226, 226);
+}
+
+.container-principal {
+  width: 100%;
+  max-width: 60%;
+  min-height: 500px;
+  background-color: rgb(26, 18, 18);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+input {
+  color: rgb(121, 226, 226);
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+  border-radius: 10px;
+}
+.wrapper button {
+  margin-top: 50px;
+}
+.primeira,
+.segunda {
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  text-align: left;
+}
+
+.primeira {
+  border-left: 3px solid rgb(121, 226, 226);
+  padding: 10px;
+}
+
+.primeira h1 {
+  margin: 50px auto;
+}
+
+#result {
+  font-size: 2rem;
+  padding: 20px 70px;
+}
